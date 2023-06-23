@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Mali&display=swap');
+
+
+html, body{
+    margin: 0;
+}
+
+.img_fundo{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+/* Parte superior da página */
+.logo_nome_menu{
+    margin-top: 0.5%;
+    margin-left: 0.7%;
+    display: flex;
+}
+
+.logo_nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 0.5%;
+    margin-left: 0.8%;
+    width: 207px;
+    height: 152px;
+}
+
+.nome{
+    font-family: 'Kenia', cursive;
+    color: #FFC105;
+    font-size: 38px;
+    margin-top: 0.1%;
+    -webkit-text-stroke: 0.2px #000;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    height: 65px;
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: #FAFF90;
+    margin: 0 auto;
+    margin-top: 0.5%;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.opcoes{
+    font-family: 'Kenia', cursive;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.opcoes:hover{
+    color: #E66C09;
+    -webkit-text-stroke: 1.2px #000;
+    transition: 0.4s;
+}
+
+li{
+    list-style: none;
+}
+
+#numero{
+    position: absolute;
+    font-size: 22px;
+    color: #000000;
+    top: 70%;
+}
+
+#numero p{
+    font-size: 22px;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+.cadastro{
+    background-color: #D7E9FF;
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+    width: 32%;
+    row-gap: 20px;
+    border-radius: 25px;
+    margin-top: 30vh;
+    margin-left: 60vw;
+    opacity: .7;
+}
+
+.cadastro, h2{
+    font-family: 'Mali', cursive;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 1%;
+    font-weight: bold ;
+    text-align: center;
+}
+
+button{
+    font-family: 'Mali' cursive;
+    font-size: 15px;
+    background-color: #FFC105;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 1.5%;
+    text-align: left;   
+}
+
+button:hover{
+    background-color: #FF1E0D;
+    color: #FAFF90;
+    transition: 0.4s;
+}
+
+.info{
+    padding-left: 3%;
+}
+
+.info:hover{
+    background-color: #FF1E0D;
+    color: #FAFF90;
+    transition: 0.4s;
+}
+
+.anexar_enviar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anexar_enviar button{
+    width: 30%;
+    text-align: center;
+}
+
+#texto{
+    background-color: #000000;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    font-family: 'Mali';
+    font-weight: bold;
+    text-align: center;
+}
+
+#texto h2{
+    color:#ffffff;
+    font-size: 18px;
+}
+
+#texto p{
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 40px;
+    color:#ffffff;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#numero{
+    position: absolute;
+    margin-top: 5vh;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Mali&display=swap');
+
+html, body{
+    margin: 0;
+}
+
+.img_fundo{
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+/* Parte superior da página */
+.logo_nome_menu{
+    margin-top: 0.5%;
+    margin-left: 0.7%;
+    display: flex;
+}
+
+.logo_nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 0.5%;
+    margin-left: 0.8%;
+    width: 207px;
+    height: 152px;
+}
+
+.nome{
+    font-family: 'Kenia', cursive;
+    color: #FFC105;
+    font-size: 38px;
+    margin-top: 0.1%;
+    -webkit-text-stroke: 0.2px #000;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    height: 65px;
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: #FAFF90;
+    margin: 0 auto;
+    margin-top: 0.5%;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.opcoes{
+    font-family: 'Kenia', cursive;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.opcoes:hover{
+    color: #E66C09;
+    -webkit-text-stroke: 1.2px #000;
+    transition: 0.4s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Mali', cursive;
+    font-size: 65px;
+    color: #FAFF90;
+    margin-top: 0;
+    margin-bottom: 1.5%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    row-gap: 30px;
+}
+
+button{
+    text-align: left;   
+    font-size: 30px;
+    padding: 1.5%;
+    font-family: 'Mali', cursive;
+    border-radius: 20px;
+    background-color: #FFC105;
+    cursor: pointer;
+}
+
+.info{
+    padding-left: 3%;
+}
+
+.info:hover{
+    background-color: #FF1E0D;
+    color: #FAFF90;
+    transition: 0.4s;
+    .img_info{
+        display: none;
+    }
+}
+
+.img_info{
+    float: right;
+}
+
+.cancelar_confirmar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cancelar_confirmar button{
+    width: 33%;
+    text-align: center;
+}
